@@ -1,0 +1,43 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="KingdominoCalculator.SiteMaster" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%: Page.Title %></title>
+    <link rel="apple-touch-icon" sizes="180x180" href="Icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="Icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Icons/favicon-16x16.png">
+    <link rel="manifest" href="Icons/site.webmanifest">
+    <link rel="mask-icon" href="Icons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="Icons/favicon.ico">
+    <meta name="apple-mobile-web-app-title" content="Kingdomino">
+    <meta name="application-name" content="Kingdomino">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-config" content="Icons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="Content/Calculator.css" rel="stylesheet" />
+</head>
+<body>
+    <form runat="server">
+        <asp:ScriptManager runat="server">
+            <Scripts>
+                <asp:ScriptReference Name="WebForms.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebForms.js" />
+                <asp:ScriptReference Name="WebUIValidation.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebUIValidation.js" />
+                <asp:ScriptReference Name="MenuStandards.js" Assembly="System.Web" Path="~/Scripts/WebForms/MenuStandards.js" />
+                <asp:ScriptReference Name="GridView.js" Assembly="System.Web" Path="~/Scripts/WebForms/GridView.js" />
+                <asp:ScriptReference Name="DetailsView.js" Assembly="System.Web" Path="~/Scripts/WebForms/DetailsView.js" />
+                <asp:ScriptReference Name="TreeView.js" Assembly="System.Web" Path="~/Scripts/WebForms/TreeView.js" />
+                <asp:ScriptReference Name="WebParts.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebParts.js" />
+                <asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js" />
+            </Scripts>
+        </asp:ScriptManager>
+        <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+    </form>
+</body>
+</html>

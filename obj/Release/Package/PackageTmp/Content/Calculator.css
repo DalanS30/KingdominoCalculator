@@ -1,0 +1,108 @@
+﻿body {
+    background-color: #ECECEA;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5em;
+}
+
+.content {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 105px;
+}
+
+.center {
+    text-align: center;
+}
+
+.img-border {
+    border: 2px black solid;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.terrain-group {
+    border-bottom: #C1C1BC 3px solid;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-group-vertical {
+    margin-top: 15px;
+    width: 100%;
+}
+
+.btn-calc {
+    border-radius: 0 !important;
+    width: 100%;
+    font-size: 1.5em;
+    color: white !important;
+}
+
+.btn-plus {
+    background-color: #3cb371;
+    border: 3px solid #0D8541;
+}
+
+.btn-minus {
+    background-color: #FB7754;
+    border: 3px solid #BA3512;
+}
+
+#grand-total-ribbon {
+    background-color: #C1C1BC;
+    height: 35px;
+    z-index: 99999999;
+}
+
+#selector-ribbon {
+    padding-top: 45px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    background-color: #dadad7;
+    height: 95px;
+    z-index: 99999998;
+}
+
+.ribbon {
+    border-bottom: 2px #9A9A90 solid;
+    position: fixed;
+    width: 100%;
+}
+
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    position: inherit;
+}
+
+.img-top-banner {
+    max-width: 40px;
+}
+
+.carousel-control {
+    width: 12%;
+}
+
+.carousel-indicators {
+    bottom: -30px;
+}
+
+    .carousel-indicators li {
+        border: 1px #9A9A90 solid;
+    }
+
+    .carousel-indicators .active {
+        background-color: #9A9A90;
+    }
+
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev,
+.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+    color: black;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+    background-image: none !important;
+    background-repeat: inherit !important;
+}
